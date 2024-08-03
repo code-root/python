@@ -1,0 +1,23 @@
+pip install pandas openpyxl
+
+# Excel to JSON Converter
+
+This script converts Excel files into JSON format, splitting the data into multiple JSON files if needed. The conversion skips the first two rows of the Excel file and divides the data into chunks with a specified number of rows per file.
+
+## Features
+
+- Converts Excel files (`.xlsx`, `.xls`) to JSON format.
+- Splits the JSON output into multiple files, each containing a specified number of rows.
+- Creates a new directory for each Excel file to store the output JSON files.
+
+## Prerequisites
+
+- Python 3.x
+- `pandas` library
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/excel-to-json-converter.git
